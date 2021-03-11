@@ -1,0 +1,82 @@
+.row{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.head{
+    width: 650px; height: 55px;
+
+    margin-top: -220px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 7px;
+}
+
+.main{
+    width: 650px; height: 352px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+}
+
+.avatar{
+    width: 184px; height: 184px;
+}
+
+.avatar img{
+    border: #002cff solid 2px;
+}
+
+.cont1{
+    width: 390px; height: 300px;
+    margin-left: 25px;
+    padding-top: 3px;
+}
+.cont2{
+    position: absolute;
+    margin-top: 210px;
+    width: 188px; height: 90px;
+}
+
+.foot{
+    width: 650px; height: 60px;
+
+    margin-top: 225px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+}
+
+.footcont{
+    width: 624px; height: 35px;
+    margin-top: 12px; margin-left: 12px;
+    font-size: 22px;
+
+}
+
+.footcont span{
+}
+
+.form{
+    position: absolute;
+    margin-top: -36px; margin-left: 130px;
+}
