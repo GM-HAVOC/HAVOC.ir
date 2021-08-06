@@ -14,7 +14,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+  <script src="https://kit.fontawesome.com/f42e1a662c.js" crossorigin="anonymous"></script>
   <!-- Theme CSS -->
   <link href="css/freelancer.css" rel="stylesheet">
 
@@ -32,10 +32,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Channels</a>
+            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio"><i class="fa fa-gamepad"></i>&nbsp;&nbsp;Channels</a>
+          </li>
+		  <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#spec"><i class="fa fa-microchip"></i>&nbsp;&nbsp;System Spec</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about"><i class="fas fa-user-secret"></i>&nbsp;&nbsp;About</a>
           </li>
         </ul>
       </div>
@@ -64,15 +67,15 @@
   </header>
 
   <!-- Portfolio Section -->
-  <section class="page-section portfolio" id="portfolio">
+  <section class="page-section portfolio bg-secondary" id="portfolio">
     <div class="container">
 
       <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Channels</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Channels</h2>
 
       <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line text-white"></div>
         <div class="divider-custom-icon">
           <i class="fas fa-gamepad"></i>
         </div>
@@ -172,9 +175,59 @@
     </div>
   </section>
 
+  <!-- SPEC SECTION -->
+  <section class="page-section bg-primary mb-0" id="spec">
+	<div class="container">
+		<h2 class="page-section-heading text-center text-uppercase text-white mb-0">System Spec</h2>
+		
+		<div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-microchip"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+	  
+	  <div class="row">
+	 
+	    <div class="col-sm-4 text-white">
+		  <p class="lead"><i class="fas fa-chalkboard"></i> MB: MAG B550 TOMAHAWK</p>
+		  <p class="lead"><i class="fas fa-microchip"></i> CPU: RYZEN 5 5600X</p>
+		  <p class="lead"><i class="fas fa-memory"></i> RAM: 16GB DDR4 3000MHz</p>
+		  <p class="lead"><i class="fas fa-dice-d6"></i> GPU: GTX 1080</p>
+		  <p class="lead"><i class="fas fa-hdd"></i> SSD: 512GB M.2 NVMe</p>
+		  <p class="lead"><i class="fas fa-hdd"></i> HDD: 2TB 7200 RPM</p>
+		  <p class="lead"><i class="fab fa-windows"></i> OS: Windows 10</p>
+        </div>
+        <div class="col-sm-4 text-white">
+		  <p class="lead"><i class="fas fa-desktop"></i> Monitor: BENQ RL2755HM
+		  <p class="lead"><i class="fas fa-desktop"></i> Monitor 2: SAMSUNG S24D595P+
+		  <p class="lead"><i class="fas fa-tv"></i> TV: SAMSUNG ES7770
+		  <p class="lead"><i class="fas fa-mouse"></i> Mouse: Glorious Model D
+		  <p class="lead"><i class="fas fa-keyboard"></i> Keyboard: Logitech G513 Carbon
+		  <p class="lead"><i class="fas fa-square"></i> Mousepad: RAZER Goliathus
+		  <p class="lead"><i class="fas fa-headset"></i> Headset: Logitech G432 7.1 DTS
+        </div>
+		<div class="col-sm-4 text-white">
+		  <h4 class="mb-0">Setuplog.io Profile</h4>
+		  <br>
+		  <p class="lead">
+			<a href="https://setuplog.io/setup/5G5nrdZo/main-rig" target="_blank">
+				<img class="img-fluid rounded" src="https://i.setuplog.io/qWy86XOPw6GMKmr5.png">
+			</a>
+		  </p>
+        </div>
+		
+	  </div>
+	  
+	</div>
+  </section>
+  
+  <!-- END OF SPEC SECTION -->
+
   <!-- About Section -->
 
-  <section class="page-section bg-primary text-white mb-0" id="about">
+  <section class="page-section bg-secondary text-white mb-0" id="about">
     <div class="container">
 
       <!-- About Section Heading -->
@@ -184,7 +237,7 @@
       <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon">
-          <i class="fas fa-info"></i>
+          <i class="fas fa-user-secret"></i>
         </div>
         <div class="divider-custom-line"></div>
       </div>
@@ -192,8 +245,8 @@
       <!-- About Section Content -->
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <p class="lead">Faraz Ahmadi - 23 Yo :P</p>
-          <a href="mailto:work.havoc@gmail.com" class="btn btn-outline-secondary">Contact Me</a>
+          <p class="lead"><i class="fas fa-user-secret"></i> Faraz Ahmadi - 23 Yo :P</p>
+          <a href="mailto:work.havoc@gmail.com" class="btn btn-outline-light"><i class="fa fa-envelope"></i>&nbsp;&nbsp;Contact Me</a>
         </div>
         <div class="col-lg-4 mr-auto">
           <p class="lead">Some guy trying to be good in gaming, streaming and making good content ... thx for reading this.</p>
@@ -214,7 +267,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer text-center">
+  <footer class="footer text-center bg-primary">
     <div class="container">
       <div class="row">
 
